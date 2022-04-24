@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>AdminPro</title>
-  <!-- <base href="/"> -->
+  <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
   <!-- Favicon icon -->
@@ -15,8 +15,19 @@
   <!-- You can change the theme colors from here -->
   <link href="./assets/css/colors/default-dark.css" id="theme" rel="stylesheet">
 </head>
-<body>
+<body class="fix-header card-no-border fix-sidebar">
+  <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+      <div class="loader">
+          <div class="loader__figure"></div>
+          <p class="loader__label">Admin Pro</p>
+      </div>
+  </div>
+
   <app-root></app-root>
+
   <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
